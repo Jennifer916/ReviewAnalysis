@@ -7,7 +7,8 @@ public class Main {
       new Review (2, "Poor! Bad") ,
       new Review (3, "") ,
     };
-    ReviewAnalysis r = new ReviewAnalysis (reviews);
+    ReviewAnalysis r = new ReviewAnalysis (reviews); 
+    System.out.println(r.getAverageRating());
   }
   
 }
