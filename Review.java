@@ -5,7 +5,7 @@ private String comment;
     rating = r ;
     comment = c; 
   }
-  public getRating () {
+  public int getRating () {
     return rating;
   }
   public String getComment () {
