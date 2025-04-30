@@ -16,7 +16,7 @@ public class ReviewAnalysis {
   public ArrayList <String> collectComments() {
     ArrayList <String> comments = new ArrayList<String> (); 
     for (int i = 0; i<allReviews.length; i++) {
-      String s= i +"-" + allReviews[i].getcomment();
+      String s= i +"-" + allReviews[i].getComment();
       String last = s.substring(s.length()-1);
       if (!last.equals(".") && !last.equals("!")) {
         s+=".";
